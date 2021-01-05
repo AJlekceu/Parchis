@@ -9,8 +9,6 @@
  4.4 Возможно, обратить порядок экшенов в TakeLocation и PenShift если п. 4.1 будет сделан (зачем?)
  4.5 Добавить try-catch в Game::moveAction на случай, если pawnIndex корявый?
   4.5.1 Проверять также, что captorPlayer < 0 в ransomAction итп?
- +4.6                                                                                               ТАКЖЕ КАСАЕТСЯ ВИДЖЕТА. Заменить команды XXXAction одной командой createAction(Command c)
- +4.7                                                                                               Заюзать юнион кодов результата и в самом классе game тоже (а не только в виджете)
 5. Сделать основной интерфейс игры
  5.1 Убрать QGraphicsView из наследования GameWidget и переместить в приват?
  5.2 Переместить цвета и всякие константы из gameWidget.cpp в gameWidget.h и gameWidget_p.h
